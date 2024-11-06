@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    border: 5px solid #333;
+    background-color: #fff;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.window-icons {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.red { background-color: #ff5f56; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #27c93f; }
+
+.left-section, .right-section {
+    padding: 20px;
+}
+
+.left-section {
+    width: 35%;
+    background-color: #333;
+    color: #fff;
+}
+
+.right-section {
+    width: 65%;
+}
+
+.profile-photo img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-photo p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-me, .education, .skills, .certifications, .extracurricular {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.skills h3 {
+    margin-top: 10px;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 10px;
+}
+
+.level {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.english { width: 80%; }
+.thai { width: 95%; }
+.teamwork { width: 90%; }
+.time-management { width: 75%; }
+.communication { width: 85%; }
