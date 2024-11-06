@@ -33,7 +33,7 @@ header h1 {
 
 .window-icons {
     position: absolute;
-    left: 10px;
+    right: 10px;
     top: 10px;
 }
 
@@ -101,7 +101,7 @@ h2 {
     background-color: #333;
 }
 
-.english { width: 80%; }
+.english { width: 30%; }
 .thai { width: 95%; }
 .teamwork { width: 90%; }
 .time-management { width: 75%; }
