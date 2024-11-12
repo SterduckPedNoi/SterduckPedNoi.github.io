@@ -96,3 +96,26 @@ ul {
 ul li {
     margin: 5px 0;
 }
+@keyframes growSkillBar {
+    from { width: 0; }
+    to { width: var(--skill-width); }
+}
+
+.skill-bar-inner {
+    width: 0;
+    background-color: #333;
+    transition: width 1s ease-in-out;
+}
+
+.animate-skill {
+    animation: growSkillBar 1s forwards;
+}
+
+.english-skill { --skill-width: 70%; }
+.thai-skill { --skill-width: 90%; }
+.office-skill { --skill-width: 85%; }
+.python-skill { --skill-width: 70%; }
+.canva-skill { --skill-width: 75%; }
+.teamwork-skill { --skill-width: 90%; }
+.time-management-skill { --skill-width: 80%; }
+.communication-skill { --skill-width: 85%; }
