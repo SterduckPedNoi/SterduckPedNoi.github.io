@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const aboutText = document.getElementById("about-text");
     const toggleButton = document.getElementById("toggle-about-btn");
 
-    // ข้อความเพิ่มเติมใน About Me
     const fullText = `เป้าหมายของผมคือพัฒนาความเชี่ยวชาญด้านเทคนิค แก้ไขปัญหาที่ยาก และสร้างผลงานที่ส่งผลดีต่อบริษัท ผมตั้งใจที่จะขยายความรู้ในเทคโนโลยีใหม่ ๆ และพัฒนาความสามารถในการต่อยอดนวัตกรรมเพื่อความคุ้มค่าและมีประสิทธิภาพ`;
 
     let isExpanded = false;
