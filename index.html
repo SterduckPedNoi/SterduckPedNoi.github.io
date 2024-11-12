@@ -1,86 +1,92 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-container">
-        <header>
-            <h1>RESUME</h1>
-            <div class="window-icons">
-                <span class="circle red"></span>
-                <span class="circle yellow"></span>
-                <span class="circle green"></span>
-            </div>
-        </header>
-        
-        <div class="left-section">
-            <div class="profile-photo">
-                <img src="profile.jpg" alt="Profile Picture">
-                <p>ยุทธภัทร ณ นครพนม</p>
-            </div>
-            
-            <div class="about-me">
-                <h2>About Me</h2>
-                <p><strong>ชื่อ:</strong> ยุทธภัทร ณ นครพนม</p>
-                <p><strong>ชื่อเล่น:</strong> แอนดี้</p>
-                <p><strong>วันเกิด:</strong> 24 เมษายน 2005</p>
-                <p><strong>อายุ:</strong> 19 ปี</p>
-                <p><strong>โทร:</strong> 0995718470</p>
-                <p><strong>Email:</strong> yuttapatandy@gmail.com</p>
-                <p><strong>ที่อยู่:</strong> 559 หมู่ 7 อ.ฝาง จ.เชียงใหม่ ต.แม่สูน</p>
-            </div>
 
-            <div class="education">
-                <h2>Education</h2>
-                <p>2011 โรงเรียน รังษีวิทยา</p>
-                <p>2023 มหาวิทยาลัยพะเยา</p>
+<div class="resume">
+    <h1>เรซูเม่</h1>
+
+    <div class="section about">
+        <div class="title">เกี่ยวกับฉัน</div>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+        <p>ชื่อ: ยุทธภัทร ณ นครพนม</p>
+        <p>ชื่อเล่น: แอนดี้</p>
+        <p>วันเกิด: 24 เมษายน 2005</p>
+        <p>อายุ: 19 ปี</p>
+        <p>โทร: 0995718470</p>
+        <p>อีเมล: yuttapatandy@gmail.com</p>
+        <p>ที่อยู่: 559 หมู่ 7 อ.ฝาง จ.เชียงใหม่ ต.แม่สูน</p>
+    </div>
+    ผ
+    <div class="section skills">
+        <div class="title">Skill</div>
+        <div class="text-block">
+            <strong>Language Skill:</strong>
+            <div class="skill-bar">
+                <span>English</span>
+                <div class="bar"><div class="progress" data-width="50%"></div></div>
             </div>
-        </div>
-
-        <div class="right-section">
-            <div class="skills">
-                <h2>Skill</h2>
-                <h3>Language Skill</h3>
-                <p>English</p>
-                <div class="skill-bar"><div class="level english"></div></div>
-                <p>Thai</p>
-                <div class="skill-bar"><div class="level thai"></div></div>
-
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li>มีความรู้พื้นฐานเกี่ยวกับ Microsoft Office</li>
-                    <li>มีความรู้พื้นฐานเกี่ยวกับ Python, Java, C</li>
-                    <li>มีความรู้พื้นฐานเกี่ยวกับ Canva</li>
-                </ul>
-
-                <h3>Soft Skills</h3>
-                <p>การทำงานเป็นทีม</p>
-                <div class="skill-bar"><div class="level teamwork"></div></div>
-                <p>การจัดการเวลา</p>
-                <div class="skill-bar"><div class="level time-management"></div></div>
-                <p>การสื่อสาร</p>
-                <div class="skill-bar"><div class="level communication"></div></div>
+            <div class="skill-bar">
+                <span>ไทย</span>
+                <div class="bar"><div class="progress" data-width="90%"></div></div>
             </div>
 
-            <div class="certifications">
-                <h2>Certifications & Achievements</h2>
-                <li>กฏหมายกับการยกระดับคุณภาพชีวิต | มหาวิทยาลัยพะเยา | 2024</li>
-                <li>ตลาดดิจิทัลเบื้องต้น | มหาวิทยาลัยพะเยา | 2024</li>
-                <li>User Experience Design For Mobile Applications Development | มหาวิทยาลัยมหิดล | 2024</li>
-                <li>Oracle Learningexploper | Oracle | 2024</li>
-            </div>
+            <strong>Technical Skill:</strong>
+            <ul>
+                <li>มีความรู้พื้นฐานเกี่ยวกับ Microsoft Office (Word, Powerpoint)</li>
+                <li>มีความรู้พื้นฐานเกี่ยวกับ Python, Java, C</li>
+                <li>มีความรู้พื้นฐานเกี่ยวกับ Canva</li>
+            </ul>
 
-            <div class="extracurricular">
-                <h2>Extracurricular Activities</h2>
-                <li>Soccer Team (RB) | กีฬาสีโรงเรียนรังษีวิทยา | 2022</li>
-                <li>Ping pong Competition | กีฬาสีโรงเรียนรังษีวิทยา | 2019</li>
-                <li>Teamwork abilities</li>
+            <strong>Soft Skill:</strong>
+            <div class="skill-bar">
+                <span>การทำงานเป็นทีม</span>
+                <div class="bar"><div class="progress" data-width="80%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>การจัดการเวลา</span>
+                <div class="bar"><div class="progress" data-width="70%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>การสื่อสาร</span>
+                <div class="bar"><div class="progress" data-width="85%"></div></div>
             </div>
         </div>
     </div>
+
+    <div class="section education">
+        <div class="title">Education</div>
+        <ul>
+            <li>2011 : โรงเรียนรังษีวิทยา</li>
+            <li>2023 : มหาวิทยาลัยพะเยา</li>
+        </ul>
+    </div>
+
+    <div class="section certifications">
+        <div class="title">Certifications & Achievements</div>
+        <ul>
+            <li>กฎหมายกับการยกระดับคุณภาพชีวิต | มหาวิทยาลัยพะเยา | 2024</li>
+            <li>ตลาดดิจิทัลเบื้องต้น | มหาวิทยาลัยพะเยา | 2024</li>
+            <li>User Experience Design for Mobile Applications Development | มหาวิทยาลัยมหิดล | 2024</li>
+            <li>Oracle Learning Explorer | Oracle | 2024</li>
+        </ul>
+    </div>
+
+    <div class="section activities">
+        <div class="title">Extracurricular Activities</div>
+        <ul>
+            <li>ทีมฟุตบอล (RB) | กีฬาสี โรงเรียนรังษีวิทยา |2022</li>
+            <li>การแข่งขันปิงปอง | กีฬาสี โรงเรียนรังษีวิทยา |2019</li>
+            <li>Teamwork abilities</li>
+        </ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
